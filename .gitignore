@@ -3,3 +3,4 @@ node_modules/
 .tools/
 .claude/visual/snapshots/current/
 .claude/visual/snapshots/diff/
+video/
