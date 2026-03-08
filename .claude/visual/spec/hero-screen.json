@@ -1,0 +1,19 @@
+{
+  "id": "hero-screen",
+  "viewport": {
+    "width": 1440,
+    "height": 838
+  },
+  "frozen": [
+    "font-size",
+    "line-height",
+    "hero-text-block-position"
+  ],
+  "flexible": [
+    "content-text"
+  ],
+  "tokens": "../tokens/design-tokens.json",
+  "referenceImage": "../design/hero-screen.png",
+  "url": "http://localhost:3000",
+  "renderType": "web"
+}

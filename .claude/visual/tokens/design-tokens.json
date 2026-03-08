@@ -1,0 +1,27 @@
+{
+  "color": {
+    "white": "#ffffff",
+    "blackGrey": "#2b3034",
+    "blue": "#627c8c",
+    "blueSoft": "#b9c7d2"
+  },
+  "spacing": {
+    "heroTitleToSubtitle": "2rem",
+    "heroSubtitleToHeadline": "2.875rem"
+  },
+  "font": {
+    "family": {
+      "display": "Montserrat, sans-serif"
+    },
+    "size": {
+      "heroTitle": "80px",
+      "heroSubtitle": "30px",
+      "heroHeadline": "90px"
+    },
+    "lineHeight": {
+      "heroTitle": "1.12",
+      "heroSubtitle": "1.2",
+      "heroHeadline": "1.05"
+    }
+  }
+}

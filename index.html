@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ksantia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero-screen" id="top">
+        <div class="hero-screen__bg" aria-hidden="true">
+          <video
+            class="hero-screen__bg-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            disablepictureinpicture
+          >
+            <source src="video/sobaka.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="hero-screen__left-shade">
+          <img src="images/de6c93eb-8e39-47a6-8157-159f0f722a14.svg" alt="" />
+        </div>
+
+        <div class="hero-screen__topbar">
+          <div class="hero-screen__logo">
+            <a href="#top" aria-label="Ksantia home">
+              <img src="images/fb08c140-92ee-4128-840a-58b5a9ce6d96.svg" alt="Ksantia" />
+            </a>
+          </div>
+
+          <div class="hero-screen__tools">
+            <div class="hero-screen__social">
+              <a href="#" aria-label="Instagram">
+                <img src="images/ec517380-24c0-452e-b4ea-8fbf8deb0947.svg" alt="" />
+              </a>
+              <a href="#" aria-label="Facebook">
+                <img src="images/d81c03ed-c557-4392-9c96-24bf71379d62.svg" alt="" />
+              </a>
+              <a href="#" aria-label="Telegram">
+                <img src="images/106361f4-7be5-4508-89f0-1b74f45a8de9.svg" alt="" />
+              </a>
+            </div>
+
+            <div class="hero-screen__actions">
+              <button class="hero-screen__lang" type="button">
+                <span>UA</span>
+                <img src="images/60bee292-e5c1-4e6e-b5f1-6f1236315007.svg" alt="" />
+              </button>
+
+              <button
+                class="hero-screen__menu"
+                type="button"
+                aria-label="Відкрити меню"
+                aria-expanded="false"
+                aria-controls="hero-screen-drawer"
+              >
+                <div class="hero-screen__menu-icon" aria-hidden="true">
+                  <img src="images/e8f7825d-1fae-4108-83fb-469d9ddd4981.svg" alt="" />
+                </div>
+                <div class="hero-screen__menu-close" aria-hidden="true">
+                  <i></i>
+                  <i></i>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-screen__overlay" hidden></div>
+        <nav class="hero-screen__drawer" id="hero-screen-drawer" aria-label="Головне меню">
+          <div class="hero-screen__drawer-head">
+            <div class="hero-screen__drawer-logo">
+              <a href="#top" aria-label="Ksantia home">
+                <img src="images/fb08c140-92ee-4128-840a-58b5a9ce6d96.svg" alt="Ksantia" />
+              </a>
+            </div>
+            <button class="hero-screen__drawer-close" type="button" aria-label="Закрити меню">
+              <img src="images/menu/menu-close.svg" alt="" />
+            </button>
+          </div>
+          <div class="hero-screen__drawer-links">
+            <a href="#top">Головна</a>
+            <a href="#about-breed">Все про шнауцера</a>
+            <a href="#top">Про нас</a>
+            <a href="#kennel">Наша зграя</a>
+            <a href="#news">Новини</a>
+            <a href="#top">Чемпіони</a>
+            <a href="#top">Цуценята</a>
+            <a href="#top">Приплоди</a>
+          </div>
+        </nav>
+
+        <div class="hero-screen__text">
+          <h1>Будинок</h1>
+          <p>не стане домом, доки не з’явиться</p>
+          <p>ШНАУЦЕР</p>
+        </div>
+        <div class="hero-screen__bottom" aria-hidden="true">
+          <svg viewBox="0 0 1440 180" preserveAspectRatio="none" focusable="false" aria-hidden="true">
+            <path d="M0 18 C360 96 1080 156 1440 20 L1440 180 L0 180 Z" fill="#f4f4f4" />
+            <path
+              d="M0 18 C360 96 1080 156 1440 20 L1440 24 C1080 160 360 117 0 45 Z"
+              fill="url(#heroWaveStroke)"
+            />
+            <defs>
+              <linearGradient id="heroWaveStroke" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#d4d9dd" />
+                <stop offset="38%" stop-color="#c3ccd2" />
+                <stop offset="72%" stop-color="#9db1bf" />
+                <stop offset="100%" stop-color="#7d9aab" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+      </header>
+
+      <main class="main-content">
+        <section class="intro container section-gap">
+          <div class="intro__backdrop"></div>
+          <div class="intro__photo-frame">
+            <img src="images/98605e6e-9e84-4a4c-b8ca-40e5a8a71fec.jpg" alt="Оксана Меліш із собакою" />
+          </div>
+          <div class="intro__panel">
+            <h2>Будемо<br />знайомі!</h2>
+            <div class="section-line section-line--light"></div>
+            <div class="intro__text">
+              <p>
+                Ласкаво просимо на сайт <strong>професійного розплідника міттельшнауцерів</strong>
+                забарвлення перець із сіллю Ksantia, що що знаходиться в Україні, в місті Одеса.
+              </p>
+              <p>
+                Мене звуть <strong>Оксана Меліш</strong>,
+              </p>
+              <p>
+                я <strong>засновниця та власниця</strong> розплідника Ksantia.
+              </p>
+              <p>Щаслива власниця шнауцерів впродовж 31 року і 20 років їхня заводчиця.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-breed container section-gap" id="about-breed">
+          <div class="section-heading">
+            <p>Ключові</p>
+            <div class="section-line"></div>
+            <h2>Особливості<br />Міттель<br />Шнауцера</h2>
+          </div>
+
+          <div class="about-breed__photo">
+            <img src="images/a6cd2a28-feb2-4a6d-82f7-c79038b254cb.jpg" alt="Міттельшнауцер" />
+          </div>
+
+          <article class="info-card info-card--overlap">
+            <h3>Комунікабельність та інтелект</h3>
+            <div class="section-line"></div>
+            <p>
+              <strong>Міттельшнауцер</strong> - компаньйон, йому важливо бути серед людей, бути "одним з". При цьому не
+              нав'язливий. Ви працюєте вдома? Собака спокійно лежить поруч, розуміючи, що вам не до нього.
+            </p>
+            <p>
+              <strong>Міттелю дуже важливо бути в контакті</strong> з людиною, але він не розчиняється у вас і не хоче,
+              щоб ви розчинилися в ньому. Міттельшнауцер - це логічне мислення і сильний характер, драйв і Особистість.
+            </p>
+            <p>Саме так, Особистість з великої літери.</p>
+          </article>
+        </section>
+
+        <section class="statement section-gap" aria-labelledby="statement-title">
+          <div class="statement__bg" aria-hidden="true"></div>
+          <div class="statement__content">
+            <div class="statement__line"></div>
+            <h2 id="statement-title">Міттельшнауцер</h2>
+            <p>
+              це для тих, кому важливі
+              <strong>партнерство і взаємоповага</strong>
+            </p>
+          </div>
+        </section>
+
+        <section class="abilities container section-gap">
+          <article class="info-card info-card--wide">
+            <h3>Висока здатність до навчання</h3>
+            <div class="section-line"></div>
+            <p>
+              Сучасний середній шнауцер <strong>універсальний у використанні.</strong> У європейських країнах він
+              служить на митниці та в поліції, у Німеччині з ним полюють на кабана, а в США міттель зарекомендував себе
+              ще й як пастуший собака.
+            </p>
+            <p>Міттельшнауцер допитливий і азартний, він дійсно <strong>любить вчитися!</strong></p>
+            <p>
+              Я часто чую від власників своїх цуценят, які пройшли курс слухняності, що з належних 10 занять вони
+              пройшли 7, а потім тренер сказав, що цуценя вже все засвоїло! Міттельшнауцер
+              <strong> дійсно легко схоплює і надовго запам'ятовує</strong>. Але дресируючи міттеля важливо пам'ятати,
+              що не тільки власник повинен бачити сенс у виконанні команди, а й собака. Змусити не вийде,
+              <strong> міттель занадто розумний, щоб бути бездумним виконавцем.</strong>
+            </p>
+          </article>
+
+          <div class="abilities__image">
+            <img src="images/7c3ca060-7c4f-485d-adc0-8e049299d860.png" alt="Собака на траві" />
+          </div>
+
+          <article class="info-card info-card--left abilities__floating">
+            <h3>Адаптивна психіка</h3>
+            <div class="section-line"></div>
+            <p>
+              У вас народилася дитина? Міттель моментально прийме її як молодшого члена зграї. Ви відвезли собаку
+              родичам на час відпустки? Міттельшнауцер одразу візьметься налагоджувати стосунки і з'ясовувати, де
+              стоїть його миска і хто частіше відкриває холодильник. Взяли собаку з собою? Зміна декорацій шнауцера не
+              бентежить, <strong>він швидко увіллється в нове середовище і встановить контакт з новими людьми</strong>,
+              начебто так завжди і було.
+            </p>
+          </article>
+
+          <article class="info-card info-card--bottom-right">
+            <h3>Середній розмір.</h3>
+            <div class="section-line"></div>
+            <p>
+              <strong>Золота середина серед шнауцерів.</strong> Висота в холці 45-50 см і міцна статура, вага 16-23 кг.
+            </p>
+            <p>Міттель не виглядає кишеньковим песиком поруч із чоловіком і легко поміщається в невеликій квартирі.</p>
+            <p>
+              З ним впорається тендітна жінка або підліток, і водночас він пробігає кілька кілометрів за велосипедом і
+              є повноцінним охоронним собакою після курсу захисного дресирування.
+            </p>
+          </article>
+        </section>
+
+        <section class="breed-history section-gap">
+          <div class="breed-history__bg"></div>
+          <div class="breed-history__panel container">
+            <div class="breed-history__content">
+              <h2>Хто такий міттельшнауцер?</h2>
+              <div class="section-line section-line--light"></div>
+              <p>
+                <strong>Міттельшнауцер</strong>, він же середній шнауцер, стандартний шнауцер, просто шнауцер, він же
+                міттель - особлива порода, яка або назавжди закохує в себе, або викликає неприйняття, але точно не
+                залишає байдужим.
+              </p>
+              <div class="button button--ghost"><a href="#gallery">Детальніше</a></div>
+            </div>
+            <div class="breed-history__photo">
+              <img src="images/fe9d2b06-c9a6-42a4-88e4-5adea67c74a1.jpg" alt="Міттельшнауцер на камінні" />
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery container section-gap" id="gallery">
+          <div class="gallery__photo">
+            <img src="images/a705c64f-2060-4f46-ace5-0b6ebb629f0f.jpg" alt="Портрет шнауцера" />
+          </div>
+
+          <article class="info-card info-card--full">
+            <h3>Шнауцер - це тер'єр?</h3>
+            <div class="section-line"></div>
+            <p>Не зважаючи на жорстку шерсть і бороду, шнауцер - не тер'єр. Ці породи різні як за характером, так і за призначенням.</p>
+            <p>Шнауцер був виведений як універсальний фермерський собака в Німеччині. Охороняв худобу, господарів і їхнє майно, був пастушим собакою і винищував щурів.</p>
+            <p>Класичні тер'єри - група порід, призначених для полювання на нірних тварин і боротьби з гризунами.</p>
+            <p>Шнауцер - універсальний службовий собака, тер'єр - норний мисливець і щуролов. Шнауцер націлений на роботу з людиною, але також може самостійно приймати рішення, активний, але розважливий.</p>
+            <p>Тер'єр, завданням якого було швидко зловити та вбити, - різкий, безстрашний, максимально швидкий і темпераментний.</p>
+          </article>
+        </section>
+
+        <section class="kennel section-gap" id="kennel">
+          <div class="kennel__bg"></div>
+          <div class="kennel__panel container">
+            <div class="kennel__photo">
+              <img src="images/61604661-5a0b-4577-9c61-aab120d38c6c.png" alt="Розплідник" />
+            </div>
+            <div class="kennel__content">
+              <h2>Про Розплідник</h2>
+              <div class="section-line section-line--light"></div>
+              <p><strong>Розплідник</strong> - це моя пристрасть і справа життя.</p>
+              <p>Ksantia був визнаний кращим розплідником шнауцерів забарвлення перець з сіллю в Україні в 2016, 2017 і 2020 роках за рейтингом Шнауцер клубу України.</p>
+              <p>Шнауцери з приставкою Ksantia носять звання Топ шнауцер України 2021 року за рейтингом Кінологічної Спілки України та Кращий шнауцер 2016, 2017, 2019 і 2020 років за рейтингом Шнауцер-клубу України.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="achievements container section-gap">
+          <div class="section-heading section-heading--compact">
+            <p>Наші</p>
+            <div class="section-line"></div>
+            <h2>Досягнення</h2>
+          </div>
+
+          <div class="achievements__photo">
+            <img src="images/c282c903-9364-48a4-8e7a-c46007c04fec.png" alt="Досягнення розплідника" />
+          </div>
+
+          <article class="info-card achievements__card">
+            <h3>На сьогоднішній день розплідник Ksantia</h3>
+            <div class="section-line"></div>
+            <p>
+              <strong>відомий</strong> в країнах <strong>Європи, Північної та Південної Америки</strong> серед професійних
+              заводчиків. Це було досягнуто завдяки співпраці з такими зарубіжними розплідниками, як
+              <strong> Ave Concorde, Metallic, Du Domaine De PierrMarie, Аnkor Kurazh, Nettle Greit, Gagatek, Nichi, Della Settima Musa, Von Link, Velvet Dandy's, Achterplatzchen, Spacy Land, Minnienoom Schnauzers.</strong>
+            </p>
+          </article>
+        </section>
+
+        <section class="about-more container section-gap">
+          <article class="info-card info-card--narrow about-more__card">
+            <p>
+              <strong>Шнауцери з приставкою Ksantia живуть</strong> у США та Канаді, у Мексиці та Аргентині, у Швеції та Англії, у Польщі та Німеччині, в Італії та Франції, у Росії та Бельгії, в Ізраїлі, Туреччині та звісно в Україні.
+            </p>
+            <p>
+              <strong>Випускники розплідника мають титули</strong> Інтерчемпіонів, чемпіонів багатьох країн, Національних шнауцер-клубів, юних віце чемпіонів Європи та світу, віце чемпіон світу, чемпіон світу серед ветеранів, чемпіон Європи.
+            </p>
+            <p>
+              <strong>В'язки продумані</strong> так, щоб випускники представляли племінну цінність не тільки для розплідника Ksantia, а й для інших заводчиків.
+            </p>
+            <p>
+              <strong>Наших собак дійсно успішно використовують у розведенні інші заводчики.</strong> Так, син проданого в Польський розплідник Ksantia Ambassador, - завоював титули Юного Чемпіона Світу 2021 року та Чемпіона Світу 2023 року. А за Юним Чемпіоном Світу - 2025 Volver Gagatek (Польща) стоять три покоління шнауцерів Ksantia.
+            </p>
+            <div class="button button--solid"><a href="#footer">Про нас</a></div>
+          </article>
+        </section>
+
+        <section class="news container section-gap" id="news">
+          <div class="news__head">
+            <div class="section-heading section-heading--compact">
+              <div class="section-line"></div>
+              <h2>Новини Розплідника</h2>
+            </div>
+            <div class="button button--outline"><a href="#">Всі новини</a></div>
+          </div>
+
+          <div class="news__grid">
+            <article class="news-card">
+              <div class="news-card__image">
+                <img src="images/1aa58796-2b25-4384-86ba-cf98221a2aac.jpg" alt="Новина 1" />
+              </div>
+              <div class="news-card__body">
+                <time datetime="2026-02-20">20.02.2026</time>
+                <h3>Дві міжнародні виставки у Києві та Національний Чемпіонат Шнауцерів</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Nec varius leo habitant velit est vitae blandit in. Nec varius leo...</p>
+                <a href="#">Детальніше</a>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-card__image">
+                <img src="images/9f5c021e-86d8-4d32-8d44-aabf1d16d578.jpg" alt="Новина 2" />
+              </div>
+              <div class="news-card__body">
+                <time datetime="2026-02-20">20.02.2026</time>
+                <h3>Дві міжнародні виставки у Києві та Національний Чемпіонат Шнауцерів</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Nec varius leo habitant velit est vitae blandit in. Nec varius leo...</p>
+                <a href="#">Детальніше</a>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-card__image">
+                <img src="images/79f22523-1ec7-4efa-a65d-f3c36b71a971.jpg" alt="Новина 3" />
+              </div>
+              <div class="news-card__body">
+                <time datetime="2026-02-20">20.02.2026</time>
+                <h3>Дві міжнародні виставки у Києві та Національний Чемпіонат Шнауцерів</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Nec varius leo habitant velit est vitae blandit in. Nec varius leo...</p>
+                <a href="#">Детальніше</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="footer-hero">
+          <img src="images/80264e49-bc36-4e14-a23a-e568304cd1a0.png" alt="Собака на заході сонця" />
+        </section>
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="footer__inner container">
+          <div class="footer__logo">
+            <a href="#top">
+              <img src="images/78875c60-b134-421e-b284-8616701d1fa5.svg" alt="Ksantia" />
+            </a>
+          </div>
+
+          <div class="footer__links">
+            <a href="#about-breed">Все про шнауцера</a>
+            <a href="#kennel">Наша зграя</a>
+            <a href="#">Анкета</a>
+            <a href="#news">Новини</a>
+            <a href="#">Чемпіони</a>
+            <a href="#">Цуценята</a>
+            <a href="#">Приплоди</a>
+            <a href="#">Процедура купівлі та експорту</a>
+          </div>
+
+          <div class="footer__social">
+            <div class="social">
+              <a href="#" aria-label="Instagram">
+                <img src="images/937f631e-8433-4184-a9e3-b739a589a6b4.svg" alt="" />
+              </a>
+              <a href="#" aria-label="Facebook">
+                <img src="images/3ef5f88f-b1f8-4a08-a221-08357a1e0572.svg" alt="" />
+              </a>
+              <a href="#" aria-label="Telegram">
+                <img src="images/a832427b-1ad6-4ec1-979a-ecd4af11eab6.svg" alt="" />
+              </a>
+            </div>
+
+            <div class="footer__badges">
+              <img src="images/fae77d39-4902-4962-b129-d796a8ffa287.png" alt="КСУ" />
+              <img src="images/03b2c2f8-1376-41de-98ee-999418066b89.png" alt="FCI" />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copyright">© Ksantia Всі права захищені. 2026</div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

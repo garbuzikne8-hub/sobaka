@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "defaultThresholdPercent": 0.5,
+  "webThresholdPercent": 0.5,
+  "pdfThresholdPercent": 1.0,
+  "maxAttempts": 5,
+  "snapshots": {
+    "baseline": ".claude/visual/snapshots/baseline",
+    "current": ".claude/visual/snapshots/current",
+    "diff": ".claude/visual/snapshots/diff"
+  },
+  "paths": {
+    "design": ".claude/visual/design",
+    "spec": ".claude/visual/spec",
+    "tokens": ".claude/visual/tokens",
+    "tests": ".claude/visual/tests"
+  }
+}
