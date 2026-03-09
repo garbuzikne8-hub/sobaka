@@ -41,13 +41,13 @@
 
           <div class="hero-screen__tools">
             <div class="hero-screen__social">
-              <a href="#" aria-label="Instagram">
+              <a class="hero-screen__icon" href="#" aria-label="Instagram">
                 <img src="images/ec517380-24c0-452e-b4ea-8fbf8deb0947.svg" alt="" />
               </a>
-              <a href="#" aria-label="Facebook">
+              <a class="hero-screen__icon" href="#" aria-label="Facebook">
                 <img src="images/d81c03ed-c557-4392-9c96-24bf71379d62.svg" alt="" />
               </a>
-              <a href="#" aria-label="Telegram">
+              <a class="hero-screen__icon" href="#" aria-label="Telegram">
                 <img src="images/106361f4-7be5-4508-89f0-1b74f45a8de9.svg" alt="" />
               </a>
             </div>
@@ -130,7 +130,7 @@
         <section class="intro container section-gap">
           <div class="intro__backdrop"></div>
           <div class="intro__photo-frame">
-            <img src="images/98605e6e-9e84-4a4c-b8ca-40e5a8a71fec.jpg" alt="Оксана Меліш із собакою" />
+            <img src="images/block-01-intro-photo.jpg" alt="Оксана Меліш із собакою" />
           </div>
           <div class="intro__panel">
             <h2>Будемо<br />знайомі!</h2>
@@ -151,6 +151,25 @@
           </div>
         </section>
 
+        <section class="breed-history section-gap">
+          <div class="breed-history__bg"></div>
+          <div class="breed-history__panel container">
+            <div class="breed-history__content">
+              <h2>Хто такий міттельшнауцер?</h2>
+              <div class="section-line section-line--light"></div>
+              <p>
+                <strong>Міттельшнауцер</strong>, він же середній шнауцер, стандартний шнауцер, просто шнауцер, він же
+                міттель - особлива порода, яка або назавжди закохує в себе, або викликає неприйняття, але точно не
+                залишає байдужим.
+              </p>
+              <div class="button button--ghost"><a href="#gallery">Детальніше</a></div>
+            </div>
+            <div class="breed-history__photo">
+              <img src="images/block-02-history-photo.jpg" alt="Міттельшнауцер на камінні" />
+            </div>
+          </div>
+        </section>
+
         <section class="about-breed container section-gap" id="about-breed">
           <div class="section-heading">
             <p>Ключові</p>
@@ -159,7 +178,7 @@
           </div>
 
           <div class="about-breed__photo">
-            <img src="images/a6cd2a28-feb2-4a6d-82f7-c79038b254cb.jpg" alt="Міттельшнауцер" />
+            <img src="images/block-03-about-photo.jpg" alt="Міттельшнауцер" />
           </div>
 
           <article class="info-card info-card--overlap">
@@ -209,7 +228,7 @@
           </article>
 
           <div class="abilities__image">
-            <img src="images/7c3ca060-7c4f-485d-adc0-8e049299d860.png" alt="Собака на траві" />
+            <img src="images/block-05-abilities-photo.png" alt="Собака на траві" />
           </div>
 
           <article class="info-card info-card--left abilities__floating">
@@ -238,28 +257,35 @@
           </article>
         </section>
 
-        <section class="breed-history section-gap">
-          <div class="breed-history__bg"></div>
-          <div class="breed-history__panel container">
-            <div class="breed-history__content">
-              <h2>Хто такий міттельшнауцер?</h2>
-              <div class="section-line section-line--light"></div>
+        <section class="comfort" aria-labelledby="comfort-title">
+          <div class="comfort__media" aria-hidden="true">
+            <img class="comfort__base" src="images/block-06-comfort-photo-base.png" alt="" />
+            <img class="comfort__overlay" src="images/block-06-comfort-photo-overlay.png" alt="" />
+          </div>
+          <div class="comfort__inner container">
+            <article class="info-card comfort__card">
+              <h3 id="comfort-title">Зручність в утриманні</h3>
+              <div class="section-line"></div>
               <p>
-                <strong>Міттельшнауцер</strong>, він же середній шнауцер, стандартний шнауцер, просто шнауцер, він же
-                міттель - особлива порода, яка або назавжди закохує в себе, або викликає неприйняття, але точно не
-                залишає байдужим.
+                Жорстка шерсть створює своєрідний панцир, який захищає від несприятливих погодних умов. Шнауцер не
+                прив'язаний до кондиціонера влітку і не потребує теплого комбінезона взимку.
               </p>
-              <div class="button button--ghost"><a href="#gallery">Детальніше</a></div>
-            </div>
-            <div class="breed-history__photo">
-              <img src="images/fe9d2b06-c9a6-42a4-88e4-5adea67c74a1.jpg" alt="Міттельшнауцер на камінні" />
-            </div>
+              <p>
+                Не линяє і не пахне псиною, це справді так. Маючи шнауцера, вам не доведеться щодня збирати по дому
+                шерсть, регулярно вичісувати і все одно діставати собаче волосся зі своєї тарілки. Вам не потрібно
+                буде заморочуватися підбором кольору вашого одягу і м'яких меблів, щоб на них не було видно собачу
+                шерсть.
+              </p>
+              <p>
+                З міттелем <strong>зручно жити під одним дахом, зручно сидіти на одному дивані і зручно... ні, приємно обіймати!</strong>
+              </p>
+            </article>
           </div>
         </section>
 
         <section class="gallery container section-gap" id="gallery">
           <div class="gallery__photo">
-            <img src="images/a705c64f-2060-4f46-ace5-0b6ebb629f0f.jpg" alt="Портрет шнауцера" />
+            <img src="images/block-06-gallery-photo.jpg" alt="Портрет шнауцера" />
           </div>
 
           <article class="info-card info-card--full">
@@ -277,7 +303,7 @@
           <div class="kennel__bg"></div>
           <div class="kennel__panel container">
             <div class="kennel__photo">
-              <img src="images/61604661-5a0b-4577-9c61-aab120d38c6c.png" alt="Розплідник" />
+              <img src="images/block-07-kennel-photo-bg.png" alt="Розплідник" />
             </div>
             <div class="kennel__content">
               <h2>Про Розплідник</h2>
@@ -289,6 +315,40 @@
           </div>
         </section>
 
+        <section class="breeding section-gap" id="breeding">
+          <div class="breeding__mist" aria-hidden="true"></div>
+
+          <div class="breeding__intro container">
+            <div class="breeding__title">
+              <h2>Моє Розведення</h2>
+              <div class="section-line"></div>
+            </div>
+
+            <div class="breeding__description">
+              <p><strong>Мета мого розведення</strong> - отримання максимально відповідних стандарту собак, не забуваючи про головне призначення породи - бути комфортним для життя компаньйоном.</p>
+              <p>Акцент робиться на стабільну психіку, завдяки чому шнауцер такий, яким він має бути. Компанійський, легко навчається, пристосовується, думає і приймає рішення.</p>
+            </div>
+          </div>
+
+          <div class="breeding__features-wrap container">
+            <div class="breeding__features">
+              <h3>А ще, шнауцери з приставкою Ksantia - це:</h3>
+              <ul>
+                <li>Якісна шерсть і яскраве забарвлення перець із сіллю. Шерсть жорстка в такій мірі, щоб вбиральний волос був тримінгуємий, але добре розвинений, а підшерстя було структурним і коротким.</li>
+                <li>Міцний кістяк без грубості та рихлості</li>
+                <li>Достатньо високий вихід шиї, висока холка і правильні пропорції лінії верху</li>
+                <li>Високопередість у стійці та за можливості в русі</li>
+                <li>Правильна будова задньої частини та правильний вихід хвоста</li>
+                <li>Збалансованість будови переду і заду як запорука якісної продуктивної рисі</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="breeding__photo" aria-hidden="true">
+            <img src="images/block-11-breeding-dog.png" alt="" />
+          </div>
+        </section>
+
         <section class="achievements container section-gap">
           <div class="section-heading section-heading--compact">
             <p>Наші</p>
@@ -297,7 +357,7 @@
           </div>
 
           <div class="achievements__photo">
-            <img src="images/c282c903-9364-48a4-8e7a-c46007c04fec.png" alt="Досягнення розплідника" />
+            <img src="images/block-08-achievements-photo.png" alt="Досягнення розплідника" />
           </div>
 
           <article class="info-card achievements__card">
@@ -341,7 +401,7 @@
           <div class="news__grid">
             <article class="news-card">
               <div class="news-card__image">
-                <img src="images/1aa58796-2b25-4384-86ba-cf98221a2aac.jpg" alt="Новина 1" />
+                <img src="images/block-09-news-01.jpg" alt="Новина 1" />
               </div>
               <div class="news-card__body">
                 <time datetime="2026-02-20">20.02.2026</time>
@@ -353,7 +413,7 @@
 
             <article class="news-card">
               <div class="news-card__image">
-                <img src="images/9f5c021e-86d8-4d32-8d44-aabf1d16d578.jpg" alt="Новина 2" />
+                <img src="images/block-09-news-02.jpg" alt="Новина 2" />
               </div>
               <div class="news-card__body">
                 <time datetime="2026-02-20">20.02.2026</time>
@@ -365,7 +425,7 @@
 
             <article class="news-card">
               <div class="news-card__image">
-                <img src="images/79f22523-1ec7-4efa-a65d-f3c36b71a971.jpg" alt="Новина 3" />
+                <img src="images/block-09-news-03.jpg" alt="Новина 3" />
               </div>
               <div class="news-card__body">
                 <time datetime="2026-02-20">20.02.2026</time>
@@ -378,7 +438,7 @@
         </section>
 
         <section class="footer-hero">
-          <img src="images/80264e49-bc36-4e14-a23a-e568304cd1a0.png" alt="Собака на заході сонця" />
+          <img src="images/block-10-footer-hero.png" alt="Собака на заході сонця" />
         </section>
       </main>
 
@@ -415,8 +475,8 @@
             </div>
 
             <div class="footer__badges">
-              <img src="images/fae77d39-4902-4962-b129-d796a8ffa287.png" alt="КСУ" />
-              <img src="images/03b2c2f8-1376-41de-98ee-999418066b89.png" alt="FCI" />
+              <img src="images/footer-badge-ksu.png" alt="КСУ" />
+              <img src="images/footer-badge-fci.png" alt="FCI" />
             </div>
           </div>
         </div>

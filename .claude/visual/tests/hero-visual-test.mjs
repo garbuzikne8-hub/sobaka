@@ -52,6 +52,12 @@ function compareImages() {
   console.log(`MISMATCH_PERCENT=${percent.toFixed(4)}`);
   console.log(percent <= thresholdPercent ? "RESULT=PASS" : "RESULT=FAIL");
 
+  if (percent > thresholdPercent) {
+    console.log("NEXT_STEP=DEVTOOLS_DIAGNOSIS");
+    console.log("DIAG_CMD=npm run mcp:chrome-devtools");
+    console.log("DIAG_FOCUS=computed-styles,box-model,transforms,fonts,layout-shift");
+  }
+
   process.exitCode = percent <= thresholdPercent ? 0 : 1;
 }
 
